@@ -57,6 +57,11 @@ Using the C-SFRAT tool, the group analyzed
 
 ## Advantages and Disadvantages of Reliability Growth Analysis
 
+#### Advantages:
+* Reliability Growth Analysis is a statistacal method to estimate time and costs associated with product development and the reliablilty goal. The reliability goal can be in the form of a Mean Time Between Failure, Annualized Failure rate, or any number of different metrics.
+* Reliability Growth Analysis helps to regulate a management strategy to reach the reliability goal.
+* It can be appliead from early development stages until the end of life of a product. There are also varoius different models that are available to be utilized with Reliability Growth Analysis.
+#### Disadvantages:
 <hr>
 
 # RDC Testing
