@@ -17,6 +17,9 @@
 
 # Assessment Using Reliability Demonstration Chart 
 
+MTTF Min: 1950
+
+
 # 
 
 # Comparison of Results
