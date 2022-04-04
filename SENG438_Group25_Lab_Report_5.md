@@ -2,12 +2,12 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:      | 25    |
+| Group \#:      | 25  |
 | -------------- | --- |
-| Curtis Silva |     |
-| Divyansh Goyal               |     |
-| Gurpartap Sohi               |     |
-| Liam Parmar               |     |
+| Curtis Silva   |     |
+| Divyansh Goyal |     |
+| Gurpartap Sohi |     |
+| Liam Parmar    |     |
 
 <hr>
 
@@ -46,6 +46,8 @@
 # Reliability Growth Testing
 
 ## Selected Models
+
+Using the C-SFRAT tool, the group analyzed 
 
 ## Result of Range Analysis
 
