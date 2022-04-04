@@ -65,13 +65,25 @@
 
 ![image](https://user-images.githubusercontent.com/58268240/161478621-ebc5664b-dc9a-49f4-88bb-4ad96427905b.png)
 
+### Explanation
+
+Here, the last observed failure is seen in the Accept (green) region. As such, it can be concluded that the SUT testing is acceptable for reliability. This value is also near the right edge (the maximum number of normalized events - 100), thus providing a suitable MTTFmin.
+
 ### Double MTTFmin: 3900
 
 ![image](https://user-images.githubusercontent.com/58268240/161477544-b061758f-5812-456b-a328-c0b5d9f8664a.png)
 
+### Explanation
+
+With this MTTF, it can be observed that the Observed Failures graph is almost entirely contained in the Reject region. This indicates that the test with this MTTF fails, as such indicating that 3900 is not an acceptable MTTFmin.
+
 ### Half MTTFmin: 975
 
 ![image](https://user-images.githubusercontent.com/58268240/161478353-f3cde086-dd0c-41e6-8107-94b31896e99a.png)
+
+### Explanation
+
+With this MTTF, it can be observed that the Observed Failures graph extends beyond the maximum number of normalized events (100) and thus extends past the Accept region. As such, 975 is not an acceptable MTTFmin because the Observed Failures graph must be contained within the three regions to make the test valid.
 
 ## Evaluation and Justification of MTTFmin
 
