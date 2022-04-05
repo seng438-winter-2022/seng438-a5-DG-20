@@ -99,6 +99,19 @@ Through the documentation and the notes in the lecture slides regarding RDC, it 
 
 ## Advantages and Disadvantages of RDC
 
+#### Advantages:
+
+* Reliability Demonstration Chart analysis is a very time and cost efficient way of analyzing the reliability of a system.
+* Can be used as a demonstration of reliability on a system.
+* Supports decisions to be made on the system through visual reliability demonstration.
+
+
+#### Disadvantages:
+
+* Cannot come up with quantitative numbers for the reliability or availability of the system under study.
+* Can only demonstrate the trend of changes and how they affect systems reliability.
+* Experimenting with different values of confidence levels and MTTF is tedious.
+
 
 
 <hr>
