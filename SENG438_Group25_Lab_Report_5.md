@@ -79,6 +79,7 @@ As the course notes state, the MTTF (target failure rate) is measured in failure
 
 ### Disadvantages:
 * Reliability growth models may not be able to be applied to software with a lack of software failure data.
+* Reliability growth models selected may have a bias or not be the best fit for a project's data, as it is determined by human choice.
 <hr>
 
 # RDC Testing
