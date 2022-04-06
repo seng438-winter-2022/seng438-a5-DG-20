@@ -18,7 +18,7 @@
 [2 Reliability Growth Testing](#reliability-growth-testing)
 * [2.1 Selected Models](#selected-models)
 * [2.2 Result of Range Analysis](#result-of-range-analysis)
-* [2.3 Results](#esults)
+* [2.3 Results](#results)
 * [2.4 Advantages and Disadvantages of Reliability Growth Analysis](#advantages-and-disadvantages-of-reliability-growth-analysis)
 
 [3 RDC Testing](#rdc-testing)
@@ -51,17 +51,23 @@ Using the C-SFRAT tool, the group analyzed all the available models on the failu
 The Intensity Graph with the models overlayed are represented here:
 ![image](https://user-images.githubusercontent.com/58268240/161904591-331376bf-dded-4b16-98bb-0b77423abf73.png)
 
-Upon looking at the overall shape of the Results, the group determined that the best model, and the one that was chosen as a result, was Geometric (GM). Furthermore, upon looking at the Model Comparison tab, the Critic (mean) for the GM model is 1.000 which essentially presents an idea fit for the input data. The Model Comparison table is provided below for reference:
+Upon looking at the overall shape of the Results, the group determined that the best two models, and the ones that were chosen as a result, were Geometric (GM) and S Distribution (S). Furthermore, upon looking at the Model Comparison tab, the Critic (mean) for the GM model is 1.000 which essentially presents an idea fit for the input data, and the Critic (mean) for the S model is 0.999, which is close to ideal. The Model Comparison table is provided below for reference:
 ![image](https://user-images.githubusercontent.com/58268240/161902304-c5114dd8-a7ae-4bfd-86a1-180aba12b327.png)
 
 ## Result of Range Analysis
 
 In the C-SFRAT tool, there was no option to conduct a range analysis such as Laplace. Furthermore, the CASRE tool did not work on any group member's laptop after several attempts even after data manipulation and changing the data to fit the format of the sample inputs provided.
-As such, the group set the Number of Intervals to Predict as 62, to observe the expected behaviour, and whether or not the number of failures is expected to platea (steady out). This number was determined through trial and error, and the result produced is as follows:
-![image](https://user-images.githubusercontent.com/58268240/161906119-5274b85b-d9c0-4396-9d3e-4caab49fef2d.png)
-As can be seen, the graph is slowly but surely steading out at around 120.
+As such, the group set the Subset Failure Data Range to 18 intervals. This was done by looking at the graph and determining that the data before 19 intervals showed a steady increase whereas afterwards, it became much steeper increases. As such, the first steady rise subset was selected as the Range. The chosen models' Results are displayed below:
+![image](https://user-images.githubusercontent.com/58268240/161911560-6ee1e8f6-bfa5-43fa-b4c2-a0027ea24e39.png)
+As can be seen, this graph shows the Results being very close together.
+
+To observe the expected behaviour, and whether or not the number of failures is expected to plateau (steady out) using the two models and the specified Range, the predicted value for the number of intervals was set to 36. This number was determined through trial and error, and the result produced is as follows:
+![image](https://user-images.githubusercontent.com/58268240/161911880-488a31bc-9db4-4325-904d-31805101dc4f.png)
+As can be seen, the graphs are slowly but surely steading out at around 52.
 
 ## Results
+
+As the course notes state, the MTTF (target failure rate) is measured in failures per time interval. As such, using the imported data, the formula for MTTF (target failure rate) = (failures at interval 18 - failures at interval 1)/(interval 18 - interval 1) = (43 - 2)/(18 - 1) = 2.41.
 
 ## Advantages and Disadvantages of Reliability Growth Analysis
 
@@ -73,7 +79,6 @@ As can be seen, the graph is slowly but surely steading out at around 120.
 
 ### Disadvantages:
 * Reliability growth models may not be able to be applied to software with a lack of software failure data.
-* Reliability growth models selected may have a bias or not be the best fit for a project's data, as it is determined by human choice. 
 <hr>
 
 # RDC Testing
@@ -143,4 +148,3 @@ Some difficulties encountered were getting the lab working at all. The failure s
 # Comments/Feedback on The Lab Itself
 
 The lab didn’t function properly for some group members as stated in the aforementioned. Some clearer instructions and or a demo on how to use the application would benefit students in the completion of the lab in the future. Overall, some applications used in reliability testing and the practices of reliability testing were learned by the students.
-
