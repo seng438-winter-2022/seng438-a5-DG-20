@@ -18,9 +18,8 @@
 [2 Reliability Growth Testing](#reliability-growth-testing)
 * [2.1 Selected Models](#selected-models)
 * [2.2 Result of Range Analysis](#result-of-range-analysis)
-* [2.3 Failure Rate and Reliability](#failure-rate-and-reliability)
-* [2.4 Decision Making Given a Target Failure Rate](#decision-making-given-a-target-failure-rate)
-* [2.5 Advantages and Disadvantages of Reliability Growth Analysis](#advantages-and-disadvantages-of-reliability-growth-analysis)
+* [2.3 Decision Making Given a Target Failure Rate](#decision-making-given-a-target-failure-rate)
+* [2.4 Advantages and Disadvantages of Reliability Growth Analysis](#advantages-and-disadvantages-of-reliability-growth-analysis)
 
 [3 RDC Testing](#rdc-testing)
 * [3.1 MTTFmin Plots](#mttfmin-plots)
@@ -61,8 +60,6 @@ In the C-SFRAT tool, there was no option to conduct a range analysis such as Lap
 As such, the group set the Number of Intervals to Predict as 62, to observe the expected behaviour, and whether or not the number of failures is expected to platea (steady out). This number was determined through trial and error, and the result produced is as follows:
 ![image](https://user-images.githubusercontent.com/58268240/161906119-5274b85b-d9c0-4396-9d3e-4caab49fef2d.png)
 As can be seen, the graph is slowly but surely steading out at around 120.
-
-## Failure Rate and Reliability
 
 ## Decision Making Given a Target Failure Rate
 
