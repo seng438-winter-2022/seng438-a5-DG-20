@@ -47,9 +47,20 @@
 
 ## Selected Models
 
-Using the C-SFRAT tool, the group analyzed 
+Using the C-SFRAT tool, the group analyzed all the available models on the failure data provided. After looking at Model Results and Predictions, the group analyzed the Results to determine the model which provided the best fit. All Models' Results are overlayed in the following image:
+![image](https://user-images.githubusercontent.com/58268240/161900785-c01a237a-3f6b-4860-89bc-2cb0344a7f1d.png)
+The Intensity Graph with the models overlayed are represented here:
+![image](https://user-images.githubusercontent.com/58268240/161904591-331376bf-dded-4b16-98bb-0b77423abf73.png)
+
+Upon looking at the overall shape of the Results, the group determined that the best model, and the one that was chosen as a result, was Geometric (GM). Furthermore, upon looking at the Model Comparison tab, the Critic (mean) for the GM model is 1.000 which essentially presents an idea fit for the input data. The Model Comparison table is provided below for reference:
+![image](https://user-images.githubusercontent.com/58268240/161902304-c5114dd8-a7ae-4bfd-86a1-180aba12b327.png)
 
 ## Result of Range Analysis
+
+In the C-SFRAT tool, there was no option to conduct a range analysis such as Laplace. Furthermore, the CASRE tool did not work on any group member's laptop after several attempts even after data manipulation and changing the data to fit the format of the sample inputs provided.
+As such, the group set the Number of Intervals to Predict as 62, to observe the expected behaviour, and whether or not the number of failures is expected to platea (steady out). This number was determined through trial and error, and the result produced is as follows:
+![image](https://user-images.githubusercontent.com/58268240/161906119-5274b85b-d9c0-4396-9d3e-4caab49fef2d.png)
+As can be seen, the graph is slowly but surely steading out at around 120.
 
 ## Failure Rate and Reliability
 
@@ -57,12 +68,12 @@ Using the C-SFRAT tool, the group analyzed
 
 ## Advantages and Disadvantages of Reliability Growth Analysis
 
-#### Advantages:
+### Advantages:
 * Reliability Growth Analysis is a statistical method to estimate time and costs associated with product development and the reliability goal. The reliability goal can be in the form of a Mean Time Between Failure, Annualized Failure rate, or any number of different metrics.
 * Reliability Growth Analysis helps to regulate a management strategy to reach the reliability goal.
 * It can be applied from early development stages until the end of life of a product. There are also various different models that are available to be utilized with Reliability Growth Analysis.
 
-#### Disadvantages:
+### Disadvantages:
 <hr>
 
 # RDC Testing
@@ -99,14 +110,13 @@ Through the documentation and the notes in the lecture slides regarding RDC, it 
 
 ## Advantages and Disadvantages of RDC
 
-#### Advantages:
+### Advantages:
 
 * Reliability Demonstration Chart analysis is a very time and cost efficient way of analyzing the reliability of a system.
 * Can be used as a demonstration of reliability on a system.
 * Supports decisions to be made on the system through visual reliability demonstration.
 
-
-#### Disadvantages:
+### Disadvantages:
 
 * Cannot come up with quantitative numbers for the reliability or availability of the system under study.
 * Can only demonstrate the trend of changes and how they affect systems reliability.
