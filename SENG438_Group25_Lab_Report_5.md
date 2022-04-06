@@ -130,10 +130,17 @@ Through the documentation and the notes in the lecture slides regarding RDC, it 
 
 # How The Team Work was Divided and Managed
 
+The assignment was done as a group of four as difficulties were run into for Mac users. We did this by having one group member share their screen as the other three members watched the screen and assisted in the process. This method was performed for parts one and two of the lab. In part one, one group member shared their screen as the others guided the person through the steps of part one familiarization and the instructions for running C-SFRAT. It was a learning process as nobody had worked with the application before so some learning was required. In part two, the same process was performed using RDC. All members made themselves familiar with RDC and how to use it while one member shared their screen of performing the instructions given in the lab. Members not sharing their screen took turns performing different instructions with the person sharing their screen to ensure the process was done correctly. Everybody worked together on the documenting of the lab.
+
 <hr>
 
 # Difficulties Encountered, Challenges Overcome, and Lessons Learned
 
+Some difficulties encountered were getting the lab working at all. The failure set used for the importing of data was told to be in the wrong format by the application being used. In some group members cases the applications would not work at all or the failure set data would not be allowed to be imported. The lab document provided no clarification to this nor did any instruction from TA’s. The lab was extremely frustrating and many groups were confused and had no clue on how to fix any of the problems. The lab overall, was very confusing, complicated, and not functional at times. Challenges that were overcome took hours to resolve. Lessons learned was that the introduction to reliability testing taught members different aspects of reliability testing including RDC and Reliability Growth Analysis.
+
 <hr>
 
 # Comments/Feedback on The Lab Itself
+
+The lab didn’t function properly for some group members as stated in the aforementioned. Some clearer instructions and or a demo on how to use the application would benefit students in the completion of the lab in the future. Overall, some applications used in reliability testing and the practices of reliability testing were learned by the students.
+
