@@ -69,6 +69,7 @@ As can be seen, the graph is slowly but surely steading out at around 120.
 * Reliability Growth Analysis is a statistical method to estimate time and costs associated with product development and the reliability goal. The reliability goal can be in the form of a Mean Time Between Failure, Annualized Failure rate, or any number of different metrics.
 * Reliability Growth Analysis helps to regulate a management strategy to reach the reliability goal.
 * It can be applied from early development stages until the end of life of a product. There are also various different models that are available to be utilized with Reliability Growth Analysis.
+* Reliability growth analysis is conducted in a dynamic environment where the reliability can change due to corrective actions.
 
 ### Disadvantages:
 * Reliability growth models may not be able to be applied to software with a lack of software failure data.
