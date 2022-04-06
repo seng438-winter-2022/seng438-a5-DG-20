@@ -18,7 +18,7 @@
 [2 Reliability Growth Testing](#reliability-growth-testing)
 * [2.1 Selected Models](#selected-models)
 * [2.2 Result of Range Analysis](#result-of-range-analysis)
-* [2.3 Decision Making Given a Target Failure Rate](#decision-making-given-a-target-failure-rate)
+* [2.3 Results](#esults)
 * [2.4 Advantages and Disadvantages of Reliability Growth Analysis](#advantages-and-disadvantages-of-reliability-growth-analysis)
 
 [3 RDC Testing](#rdc-testing)
@@ -61,7 +61,7 @@ As such, the group set the Number of Intervals to Predict as 62, to observe the 
 ![image](https://user-images.githubusercontent.com/58268240/161906119-5274b85b-d9c0-4396-9d3e-4caab49fef2d.png)
 As can be seen, the graph is slowly but surely steading out at around 120.
 
-## Decision Making Given a Target Failure Rate
+## Results
 
 ## Advantages and Disadvantages of Reliability Growth Analysis
 
