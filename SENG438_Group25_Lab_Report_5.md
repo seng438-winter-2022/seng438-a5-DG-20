@@ -71,6 +71,7 @@ As can be seen, the graph is slowly but surely steading out at around 120.
 * It can be applied from early development stages until the end of life of a product. There are also various different models that are available to be utilized with Reliability Growth Analysis.
 
 ### Disadvantages:
+* Reliability growth models may not be able to be applied to software with a lack of software failure data.
 <hr>
 
 # RDC Testing
