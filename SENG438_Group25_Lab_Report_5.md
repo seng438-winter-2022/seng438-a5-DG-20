@@ -73,6 +73,7 @@ As can be seen, the graph is slowly but surely steading out at around 120.
 
 ### Disadvantages:
 * Reliability growth models may not be able to be applied to software with a lack of software failure data.
+* Reliability growth models selected may have a bias or not be the best fit for a project's data, as it is determined by human choice. 
 <hr>
 
 # RDC Testing
