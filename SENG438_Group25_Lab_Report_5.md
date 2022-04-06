@@ -112,8 +112,6 @@ Through the documentation and the notes in the lecture slides regarding RDC, it 
 * Can only demonstrate the trend of changes and how they affect systems reliability.
 * Experimenting with different values of confidence levels and MTTF is tedious.
 
-
-
 <hr>
 
 # Other
