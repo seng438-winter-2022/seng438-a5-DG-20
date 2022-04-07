@@ -131,6 +131,7 @@ Through the documentation and the notes in the lecture slides regarding RDC, it 
 <hr>
 
 # Other
+### 4.2 Compare the results of Part1 and Part 2 and justify the case that each technique can be used.
 
 <hr>
 
