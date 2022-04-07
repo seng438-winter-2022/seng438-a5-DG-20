@@ -131,7 +131,13 @@ Through the documentation and the notes in the lecture slides regarding RDC, it 
 <hr>
 
 # Other
-### 4.2 Compare the results of Part1 and Part 2 and justify the case that each technique can be used.
+### Comparing the results of Part 1 and Part 2
+
+### Discussion on similarities and differences of the two techniques.
+
+Reliability Demonstration Chart (RDC) is an efficient way of checking whether the target failure rate or MTTF is met or not. 
+
+Both Reliability Growth Testing and Reliability Demonstration Chart techniques are based on collecting failure data at time points, and requires inputting the failure data which consists of the failure number and failure time. However, in Reliability Growth Testing, a set of models are selected that would provide the best fit for the project data and a range is chosen to utilize the useful data. The range can be manipulated in Reliability Growth Testing to determine an acceptable range. In the Reliability Demonstration Chart (RDC), the target MTTF and anticipated confidence levels need to be identified. The failure points are also drawn on the graph and the trend is analyzed. The MTTF can be set to various values and used to plot the failure data. Specifically, the minimum MTTF needs to be determined for which the system under test becomes acceptable.
 
 <hr>
 
