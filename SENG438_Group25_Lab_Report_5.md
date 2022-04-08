@@ -135,6 +135,7 @@ Through the documentation and the notes in the lecture slides regarding RDC, it 
 # Other
 ### Comparing the results of Part 1 and Part 2
 
+When looking at the results from part 1, an MTTF of 2.41 is extrapolated from the slope of the graph taken from interval 18 to interval 1. As can be seen in the graph, the start of interval 0 has a high amount of failures, which is expected with the most failures being the end of the final interval. The slope provides a rough estimate to ensure the failure data imported is accepted. When looking at the results from part 2, the minimum MTTF found to be best suited was 1950 through some trial and error of adjusting the RDC.
 ### Discussion on similarities and differences of the two techniques.
 
 Reliability Demonstration Chart can be utilized when the failure data is limited to a few failures, and the trend for the reliability of the system is needed. It is based on inter failure time only and target failure rate. Whereas Reliability Growth Testing, is based on inter failure time and/or failure count and target failure rate.
