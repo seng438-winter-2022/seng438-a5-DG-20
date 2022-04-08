@@ -14,9 +14,6 @@
 **Table of Contents**
 
 [1 Introduction](#introduction)
-
-This purpose of this lab was to introduce assessing failure data using Reliability Growth Testing and conducting a Reliability Assessment. The first part of the lab explored the use of the STRAT tool to import failure data and create plots of failure rate and reliability. The second part of the lab explored the use of a Reliability Demonstration Chart (RDC) to determine the trend for the reliability of the system.
-
 [2 Reliability Growth Testing](#reliability-growth-testing)
 * [2.1 Selected Models](#selected-models)
 * [2.2 Result of Range Analysis](#result-of-range-analysis)
@@ -41,6 +38,8 @@ This purpose of this lab was to introduce assessing failure data using Reliabili
 <hr>
 
 # Introduction
+
+This purpose of this lab was to introduce assessing failure data using Reliability Growth Testing and conducting a Reliability Assessment. The first part of the lab explored the use of the STRAT tool to import failure data and create plots of failure rate and reliability. The second part of the lab explored the use of a Reliability Demonstration Chart (RDC) to determine the trend for the reliability of the system.
 
 <hr>
 
@@ -135,7 +134,8 @@ Through the documentation and the notes in the lecture slides regarding RDC, it 
 # Other
 ### Comparing the results of Part 1 and Part 2
 
-When looking at the results from part 1, an MTTF of 2.41 is extrapolated from the slope of the graph taken from interval 18 to interval 1. As can be seen in the graph, the start of interval 0 has a high amount of failures, which is expected with the most failures being the end of the final interval. The slope provides a rough estimate to ensure the failure data imported is accepted. When looking at the results from part 2, the minimum MTTF found to be best suited was 1950 through some trial and error of adjusting the RDC.
+When looking at the results from part 1, an MTTF of 2.41 is determined from the slope of the graph taken from interval 1 to interval 18. As can be seen in the graph, the start of interval 0 has a high amount of failures, which is expected with the most failures being the end of the final interval. The slope provides a rough estimate to ensure the failure data imported is accepted. When looking at the results from part 2, the minimum MTTF found to be best suited was 1950 through some trial and error of adjusting the RDC. Although these values vary vastly, an explanation of such can be a difference in methodologies, as the RDC required extrapolating given data which could be very different from the actual data that would have been recorded. Furthermore, due to the technology provided not sufficiently working on any group members' computers, a proper Laplace test was unable to be conducted in Part 1, which could have caused the large deviation. 
+
 ### Discussion on similarities and differences of the two techniques.
 
 Reliability Demonstration Chart can be utilized when the failure data is limited to a few failures, and the trend for the reliability of the system is needed. It is based on inter failure time only and target failure rate. Whereas Reliability Growth Testing, is based on inter failure time and/or failure count and target failure rate.
@@ -146,16 +146,16 @@ Both Reliability Growth Testing and Reliability Demonstration Chart techniques a
 
 # How The Team Work was Divided and Managed
 
-The assignment was done as a group of four as difficulties were run into for Mac users. We did this by having one group member share their screen as the other three members watched the screen and assisted in the process. This method was performed for parts one and two of the lab. In part one, one group member shared their screen as the others guided the person through the steps of part one familiarization and the instructions for running C-SFRAT. It was a learning process as nobody had worked with the application before so some learning was required. In part two, the same process was performed using RDC. All members made themselves familiar with RDC and how to use it while one member shared their screen of performing the instructions given in the lab. Members not sharing their screen took turns performing different instructions with the person sharing their screen to ensure the process was done correctly. Everybody worked together on the documenting of the lab.
+The assignment was done as a group of four as difficulties were run into for Mac users. We did this by having one group member share their screen as the other three members watched the screen and assisted in the process. This method was performed for parts one and two of the lab. In part one, one group member shared their screen as the others guided the person through the steps of part one familiarization and the instructions for running C-SFRAT. It was a learning process as nobody had worked with the application before so some learning was required. In part two, the same process was performed using RDC. All members made themselves familiar with RDC and how to use it while one member shared their screen whilst performing the instructions given in the lab. Members not sharing their screen took turns performing different instructions with the person sharing their screen to ensure the process was done correctly. Everybody worked together on the documenting of the lab.
 
 <hr>
 
 # Difficulties Encountered, Challenges Overcome, and Lessons Learned
 
-Some difficulties encountered were getting the lab working at all. The failure set used for the importing of data was told to be in the wrong format by the application being used. In some group members cases the applications would not work at all or the failure set data would not be allowed to be imported. The lab document provided no clarification to this nor did any instruction from TA’s. The lab was extremely frustrating and many groups were confused and had no clue on how to fix any of the problems. The lab overall, was very confusing, complicated, and not functional at times. Challenges that were overcome took hours to resolve. Lessons learned was that the introduction to reliability testing taught members different aspects of reliability testing including RDC and Reliability Growth Analysis.
+Some difficulties encountered were getting the lab technology working at all. The failure set used for the importing of data was told to be in the wrong format by the application being used. In some group members' cases, the applications would not work at all or the failure dataset would not be allowed to be imported. The lab document provided little clarification on this. The lab overall, was difficult to understand,  complicated, and not functional at times. Challenges that were overcome took hours to resolve. Lessons learned was that the introduction to reliability testing taught members different aspects of reliability testing including RDC and Reliability Growth Analysis.
 
 <hr>
 
 # Comments/Feedback on The Lab Itself
 
-The lab didn’t function properly for some group members as stated in the aforementioned. Some clearer instructions and or a demo on how to use the application would benefit students in the completion of the lab in the future. Overall, some applications used in reliability testing and the practices of reliability testing were learned by the students.
+The lab technology did not function properly for some group members as stated in the aforementioned sections. Some clearer instructions and/or a demo on how to use the application would benefit students in the completion of the lab in the future. Overall, some applications used in reliability testing and the practices of reliability testing were learned by the students.
