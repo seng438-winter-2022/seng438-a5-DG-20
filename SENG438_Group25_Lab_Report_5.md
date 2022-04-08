@@ -26,8 +26,8 @@
 * [3.3 Advantages and Disadvantages of RDC](#advantages-and-disadvantages-of-rdc)
 
 [4 Other](#other)
-* [4.1 Comparison of The Results](#comparison-of-the-results)
-* [4.2 Similarities and Differences](#similarities-and-differences)
+* [4.1 Comparison of The Results](#comparing-the-results-of-part-1-and-part-2)
+* [4.2 Similarities and Differences](#discussion-on-similarities-and-differences-of-the-two-techniques)
 
 [5 How The Team Work was Divided and Managed](#how-the-team-work-was-divided-and-managed)
 
