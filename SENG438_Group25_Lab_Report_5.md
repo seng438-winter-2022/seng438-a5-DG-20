@@ -15,6 +15,8 @@
 
 [1 Introduction](#introduction)
 
+This purpose of this lab was to introduce assessing failure data using Reliability Growth Testing and conducting a Reliability Assessment. The first part of the lab explored the use of the STRAT tool to import failure data and create plots of failure rate and reliability. The second part of the lab explored the use of a Reliability Demonstration Chart (RDC) to determine the trend for the reliability of the system.
+
 [2 Reliability Growth Testing](#reliability-growth-testing)
 * [2.1 Selected Models](#selected-models)
 * [2.2 Result of Range Analysis](#result-of-range-analysis)
